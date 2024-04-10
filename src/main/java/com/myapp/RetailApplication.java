@@ -5,6 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class RetailApplication {
+	
+	public String getMassage() {
+		return "Weelcome in my ratail app!!!";
+	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(RetailApplication.class, args);
