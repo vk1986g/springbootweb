@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class RetailApplication {
 	
 	public String getMassage() {
-		return "Weelcome in my ratail app!!!";
+		return "Welcome in my ratail application!!!";
 	}
 
 	public static void main(String[] args) {
